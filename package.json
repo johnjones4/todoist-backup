@@ -1,0 +1,27 @@
+{
+  "name": "todoist-backup",
+  "version": "1.0.0",
+  "description": "Downloads a backup from Todoists's API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnjones4/todoist-backup.git"
+  },
+  "author": "John Jones <johnjones4@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnjones4/todoist-backup/issues"
+  },
+  "homepage": "https://github.com/johnjones4/todoist-backup#readme",
+  "dependencies": {
+    "fs-extra": "^3.0.1",
+    "minimist": "^1.2.0",
+    "request": "^2.81.0"
+  },
+  "bin": {
+    "todoist-backup": "cli.js"
+  }
+}
